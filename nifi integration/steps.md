@@ -12,7 +12,7 @@
  ```
 
 
-- Import the template nifi-ozone.xml into Nifi.
+- Import the template [nifi-ozone.xml](https://github.com/snemuri/ozone-apps/blob/master/nifi%20integration/nifi-ozone.xml) into Nifi.
 
 - Copy the core-site.xml,hdfs-site.xml & ozone-site.xml into a Nifi node (default file system should contain the o3fs url) and
 configure it in PutHDFS processor. Eg: `/opt/hadoop-ozone-conf/core-site.xml,/opt/hadoop-ozone-conf/hdfs-site.xml,/opt/hadoop-ozone-conf/ozone-site.xml`
