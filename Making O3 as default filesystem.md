@@ -37,9 +37,3 @@ In spark2-defaults.conf add:
 `spark.executor.extraClassPath=/opt/ozone-0.4.0-SNAPSHOT/share/ozone/lib/hadoop-ozone-filesystem-0.4.0-SNAPSHOT.jar:/opt/ozone-0.4.0-SNAPSHOT/share/ozone/lib/ratis-proto-0.4.0-f283ffa-SNAPSHOT.jar:/opt/ozone-0.4.0-SNAPSHOT/share/ozone/lib/ratis-thirdparty-misc-0.2.0.jar:/opt/ozone-0.4.0-SNAPSHOT/share/ozone/lib/bcprov-jdk15on-1.60.jar:/opt/ozone-0.4.0-SNAPSHOT/share/ozone/lib/hadoop-ozone-filesystem-lib-0.4.0-SNAPSHOT.jar`
 
 `spark.hadoop.fs.AbstractFileSystem.o3fs.impl=org.apache.hadoop.fs.ozone.OzFs`
-
-
-## Hive(in complete)
-
-`fs.defaultFS=o3fs://bucket.hdfsonozone/`
-
